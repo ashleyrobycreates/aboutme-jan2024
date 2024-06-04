@@ -1,0 +1,31 @@
+
+h1 {color:#b50f68; font-style: italic;
+    background: rgba(130, 232, 13, 0.647);
+    display: flex;
+    justify-content: center;
+    
+}
+
+body {background-color: darkorchid;
+}
+
+button {
+
+    display: block;
+    margin: 0 auto;
+    padding: 10px 10px;
+    background-color: rgba(235, 17, 126, 0.647);
+    border: 10px solid rgb(117, 114, 110);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    font-size: larger;
+    color:rgb(8, 190, 241);
+}
+
+.cards {
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
