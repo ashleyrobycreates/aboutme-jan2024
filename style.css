@@ -1,12 +1,33 @@
 
-h1 {color:#b50f68; font-style: italic;
-    background: rgba(130, 232, 13, 0.647);
+h1 {color:#06def6; font-style:bold;
+    background: rgba(53, 4, 247, 0.647);
+    border: 3px solid rgb(10, 6, 0);
     display: flex;
-    justify-content: center;
+    justify-content:center;
     
 }
+h2 {
+    font-style:italic;
+    display:flex;
+    justify-content:center;
+  
+}
+h3 {
+    font-style:italic;
+    display: flex;
+    justify-content: center;   
+}
 
-body {background-color: darkorchid;
+h4 {
+    font-style:italic;
+    display: flex;
+    justify-content: center;   
+}
+
+body {
+    
+    background-color: darkorchid;
+    
 }
 
 button {
@@ -14,18 +35,25 @@ button {
     display: block;
     margin: 0 auto;
     padding: 10px 10px;
-    background-color: rgba(235, 17, 126, 0.647);
-    border: 10px solid rgb(117, 114, 110);
+    background-color: #f92ccaa5;
+    border: 3px solid rgb(10, 6, 0);
     border-radius: 10px;
     margin-bottom: 30px;
     cursor: pointer;
     font-size: larger;
-    color:rgb(8, 190, 241);
+    color:rgb(0, 10, 12);
 }
 
 .cards {
-    margin: 0;
+    margin: 10px;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
+}
+.card {
+    border-radius: 1rem;
+    border: 2px solid #1b0101;
+    margin: 1rem 0 1rem 0;
+    width: 100%;
+    background-color: #f92ccaa5
 }
