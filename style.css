@@ -10,6 +10,7 @@ h2 {
     font-style:italic;
     display:flex;
     justify-content:center;
+    
   
 }
 h3 {
@@ -49,6 +50,7 @@ button {
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
 }
 .card {
     border-radius: 1rem;
