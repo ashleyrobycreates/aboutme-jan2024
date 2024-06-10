@@ -45,9 +45,9 @@ button {
       
 }
 .card {
-    border-radius: 5px;
-    border: 2px solid #1b0101;
-    margin: 1px 0 1px 0;
+    border-radius: 0px;
+    border: 5px solid #1b0101;
+    margin: 0, auto;
     background-color: #f92ccaa5
     
 }
